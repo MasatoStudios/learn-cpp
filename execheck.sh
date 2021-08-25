@@ -14,10 +14,10 @@
 #if [ $count_file != 0 ]
 #then
 #	for file in *.exe; do
+                                          
 #	echo ${file##*/}
 #	done
 #fi
-
 
 
 if compgen -G "$HOME/Documents/C++/*.exe" > /dev/null; then
